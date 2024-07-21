@@ -1,1 +1,0 @@
-# risc0-check-no_std

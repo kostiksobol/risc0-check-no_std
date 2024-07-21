@@ -1,0 +1,11 @@
+[package]
+name = "risc0-check"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gstd = "1.4.1"
+risc0-zkvm ={ version = "1.0.3", default-features = false}
+
+[build-dependencies]
+gear-wasm-builder = "1.4.1"
